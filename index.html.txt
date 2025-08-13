@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Retro Podium Overlay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="firstSound" src="sounds/first.mp3"></audio>
+  <audio id="secondSound" src="sounds/second.mp3"></audio>
+  <audio id="thirdSound" src="sounds/third.mp3"></audio>
+
+  <div id="podium">
+    <div class="slot first" id="firstSlot">—</div>
+    <div class="slot second" id="secondSlot">—</div>
+    <div class="slot third" id="thirdSlot">—</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
